@@ -18,8 +18,8 @@ def load_data(nrows):
 @st.cache_data
 def load_data(nrows):
 
-# Create a text element and let the reader know the data is loading.
-data_load_state.text("Done! (using st.cache_data)")
+         # Create a text element and let the reader know the data is loading.
+         data_load_state.text("Done! (using st.cache_data)")
 
 
 
